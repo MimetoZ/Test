@@ -11,7 +11,7 @@ public class StudentStandart implements Student {
 
     @Override
     public void giveTask(Task task) {
-        System.out.print(type + ": " + task);
+        System.out.print(type + ": ");
         task.description();
     }
 
