@@ -19,4 +19,5 @@ public class StudentStandart implements Student {
     public String getType() {
         return type;
     }
+
 }
