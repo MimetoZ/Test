@@ -1,6 +1,7 @@
 package decorator;
 
 import factory.Task;
+import strategy.ArrivalStrategy;
 
 public class StudentStandart implements Student {
     private String type;

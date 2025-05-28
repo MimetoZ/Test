@@ -11,4 +11,6 @@ public class Telepathy extends StudentDecorator{
         super.giveTask(task);
         System.out.println("Telepathy added!");
     }
+
+
 }

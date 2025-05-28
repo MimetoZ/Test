@@ -11,4 +11,6 @@ public class SuperFocus extends StudentDecorator{
         super.giveTask(task);
         System.out.println("Super Focus added!");
     }
+
+
 }
