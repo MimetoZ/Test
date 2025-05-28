@@ -16,4 +16,9 @@ public abstract class StudentDecorator implements Student {
     public String getType() {
         return decorated.getType();
     }
+
+    @Override
+    public void arrival() {
+        decorated.arrival();
+    }
 }

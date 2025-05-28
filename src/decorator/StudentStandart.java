@@ -5,9 +5,11 @@ import strategy.ArrivalStrategy;
 
 public class StudentStandart implements Student {
     private String type;
+    private ArrivalStrategy arrivalStrategy;
 
-    public StudentStandart(String type) {
+    public StudentStandart(String type, ArrivalStrategy arrivalStrategy) {
         this.type = type;
+        this.arrivalStrategy = arrivalStrategy;
     }
 
     @Override
@@ -19,6 +21,11 @@ public class StudentStandart implements Student {
     @Override
     public String getType() {
         return type;
+    }
+
+    @Override
+    public void arrival() {
+        arrivalStrategy.arrival();
     }
 
 }
