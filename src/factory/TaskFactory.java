@@ -6,7 +6,7 @@ public class TaskFactory {
             case "вундеркинд" -> new FunTask();
             case "фитнес маниак" -> new HardTask();
             case "калитко" -> new EasyTask();
-            default -> throw new IllegalArgumentException("Неизвестен тип студент.");
+            default -> throw new IllegalArgumentException("Not a student type!");
         };
     }
 }
