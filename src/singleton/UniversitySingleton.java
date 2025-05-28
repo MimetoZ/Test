@@ -19,6 +19,7 @@ public class UniversitySingleton {
     }
 
     public void start(Student student) {
+        student.arrival();
         Task task = TaskFactory.createTask(student.getType());
         student.giveTask(task);
     }
